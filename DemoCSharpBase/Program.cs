@@ -7,6 +7,7 @@ namespace DemoCSharpBase
         
         static void Main(string[] args)
         {
+            #region code_formateur
             /*   //string s = Console.ReadLine();
             #region Exemple
             //string s = Console.ReadLine();
@@ -180,6 +181,7 @@ namespace DemoCSharpBase
             //Console.WriteLine(reponse); 
             #endregion
 
+            #region exo_magasin
             /*
                 Mettre en place un système de vente basique
                 Demander à l'utilisateur combien d'article il souhaite
@@ -227,7 +229,7 @@ namespace DemoCSharpBase
 
 
 
-            int nbrVoulu, nbrGratuit, nbrPayant;
+           /* int nbrVoulu, nbrGratuit, nbrPayant;
             int stock = 0;
 
             Console.WriteLine("Avez vous la carte ? O / N");
@@ -249,10 +251,10 @@ namespace DemoCSharpBase
             nbrPayant = nbrVoulu - nbrGratuit;
 
             Console.WriteLine($"Payant : {nbrPayant}");
-            Console.WriteLine($"Gratuit : {nbrGratuit}");
+            Console.WriteLine($"Gratuit : {nbrGratuit}");*/
 
+            #endregion
 
-           
         }
     }
 }
