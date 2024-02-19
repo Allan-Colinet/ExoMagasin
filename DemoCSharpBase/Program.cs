@@ -229,32 +229,33 @@ namespace DemoCSharpBase
 
 
 
-           /* int nbrVoulu, nbrGratuit, nbrPayant;
-            int stock = 0;
+            /* int nbrVoulu, nbrGratuit, nbrPayant;
+             int stock = 0;
 
-            Console.WriteLine("Avez vous la carte ? O / N");
-            bool carte = (Console.ReadLine() == "O") ? true : false;
+             Console.WriteLine("Avez vous la carte ? O / N");
+             bool carte = (Console.ReadLine() == "O") ? true : false;
 
-            Console.WriteLine("Combien d'articles voulez vous ? ");
-            nbrVoulu = int.Parse(Console.ReadLine());
-            if(stock == 0) { 
-                Console.WriteLine("va mourrir"); 
-                return; 
-            }
-            if(nbrVoulu > stock)
-            {
-                Console.WriteLine($"Désolé notre stock est limité à {stock}");
-                nbrVoulu = stock;
-            }
+             Console.WriteLine("Combien d'articles voulez vous ? ");
+             nbrVoulu = int.Parse(Console.ReadLine());
+             if(stock == 0) { 
+                 Console.WriteLine("va mourrir"); 
+                 return; 
+             }
+             if(nbrVoulu > stock)
+             {
+                 Console.WriteLine($"Désolé notre stock est limité à {stock}");
+                 nbrVoulu = stock;
+             }
 
-            nbrGratuit = nbrVoulu / (carte ? 2 : 3);
-            nbrPayant = nbrVoulu - nbrGratuit;
+             nbrGratuit = nbrVoulu / (carte ? 2 : 3);
+             nbrPayant = nbrVoulu - nbrGratuit;
 
-            Console.WriteLine($"Payant : {nbrPayant}");
-            Console.WriteLine($"Gratuit : {nbrGratuit}");*/
+             Console.WriteLine($"Payant : {nbrPayant}");
+             Console.WriteLine($"Gratuit : {nbrGratuit}");*/
 
             #endregion
 
+  
         }
     }
 }
