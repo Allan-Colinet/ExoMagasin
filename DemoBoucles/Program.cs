@@ -1,4 +1,6 @@
-﻿namespace DemoBoucles
+﻿using System.ComponentModel;
+
+namespace DemoBoucles
 {
     internal class Program
     {
@@ -100,7 +102,7 @@
             quand il veut stopper le prog affiche le total à payer 
              */
 
-            /*            int stockCoca = 4;
+            /*          int stockCoca = 4;
                         int stockSandwich = 2;
                         int stockPorte = 3;
 
@@ -164,9 +166,63 @@
             */
             #endregion
 
-            #region exo_tableau
+            #region Exemple_List
+
+            /*            List<string> ActeurListMenace = new List<string>();
+                        ActeurListMenace.Add("Liam Nesson");
+                        ActeurListMenace.Add("Ewan McGregor");
+                        ActeurListMenace.Add("Jake Lloyd");
+
+                        List<string> ActeurListClone = new List<string>();
+                        ActeurListClone.Add("Ayden Christensen");
+                        ActeurListClone.Add("Ewan McGregor");
+                        ActeurListClone.Add("Nathalie Portman");
+
+                        List<string> ActeurListRevanche = new List<string>();
+                        ActeurListRevanche.Add("Ayden Christensen");
+                        ActeurListRevanche.Add("Ewan McGregor");
+                        ActeurListRevanche.Add("Ian McDiarmid");
+
+                        Dictionary<string, List<string>> starWarsCasting = new Dictionary<string, List<string>> ();
+
+                        starWarsCasting.Add("La menace Fantome", ActeurListMenace);
+                        starWarsCasting.Add("L'attaque des Clones", ActeurListClone);
+                        starWarsCasting.Add("La revanche des Sith", ActeurListRevanche);
+
+                        foreach (KeyValuePair<string, List<string>> item in starWarsCasting)
+                        {
+
+                            Console.WriteLine($"------ Titre : {item.Key} ------");
+                            Console.WriteLine(  );
+                            foreach (string key in item.Value)
+                            {
+                                Console.WriteLine($" - {key}");
+                                Console.WriteLine(  );
+                            }
+                        }
+            */
+            // Ecriture raccourcie
+
+            // Films.Add("nom clé", 
+            //  new List<string> { "nom qu'on veut add 1", "nom qu'on veut add 2", "nom qu'on veut add 3"}
 
 
+
+
+            #endregion
+
+            #region Exemple_Methodes
+            /*  stocker les articles du magasin en collection à l'aide d'une méthode
+             *  
+             *  Le retrait du stock d'un article se fait avec une méthode
+             *  
+             *  créer une méthode qui calcul le total des achats
+             *  
+             *  le panier du client est stocké en collection
+                */
+
+
+            #endregion
         }
     }
 }
